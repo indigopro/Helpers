@@ -1,0 +1,34 @@
+{
+  "name": "@indigopro/helpers",
+  "version": "1.0.0",  
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indigopro/Helpers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/indigopro/Helpers/issues"
+  },
+  "homepage": "https://github.com/indigopro/Helpers#readme",
+  "dependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/uuid": "^9.0.0",
+    "crypto-js": "^4.1.1",
+    "image-conversion": "^2.1.1",    
+    "reflect-metadata": "^0.1.13",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.16",
+    "typescript": "^4.9.4"
+  }
+}
