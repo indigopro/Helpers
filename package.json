@@ -2,11 +2,14 @@
   "name": "@indigopro/helpers",
   "version": "1.0.0",  
   "type": "module",
-  "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ], 
   "scripts": {
     "build": "npx tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "npx del-cli --force ./dist && npx standard-version && npx tsc && npm publish"
   },
   "repository": {
     "type": "git",
@@ -28,7 +31,12 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "@types/node": "^18.11.16",
+    "@types/node": "^18.11.16",    
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"prettier": "^2.8.0",
+		"prettier-plugin-svelte": "^2.8.1",
     "typescript": "^4.9.4"
   }
 }
