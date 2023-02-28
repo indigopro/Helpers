@@ -6,7 +6,7 @@ export class Script {
     return {
       add: (content: string) => {
         this.$scope = `${this.$scope}\n${content}`
-      }
+      },
     }
   }
 

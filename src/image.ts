@@ -4,4 +4,4 @@
 
 // export const imageCompressAccurately = async (file: Blob, size: number, type: 'PNG' | 'JPEG' = 'JPEG') => await compressAccurately(file, {size, type: EImageType[type]})
 
-export const a =1
+export const a = 1

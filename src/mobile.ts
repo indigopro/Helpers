@@ -14,7 +14,7 @@ export const disablePageRefreshFacility = () => {
       w = window.pageYOffset === 0
 
       // testLabel is DOM element just to show the current pageYOffset - for test
-      //testLabel.innerHTML=window.pageYOffset;
+      // testLabel.innerHTML=window.pageYOffset;
     },
     false
   )
